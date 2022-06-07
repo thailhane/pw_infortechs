@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvet, sans-serif;
     background-image: #fff;
-    background-color: #111;
+    background: #fff;
   }
   .container{
     background-color: #ffe999;
@@ -9,23 +9,23 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 80px;
+    padding: 90px;
     border-radius: 5px;
     color: #111;
   }
   input{
-    padding: 15px;
+    padding: 25px;
     border: 1px red;
     outline: none;
     font-size: 15px;
   }
-  button{
+  .button{
     background-color: dodgerblue;
     border: none;
     padding: 15px;
     border-radius: 10px;
   }
-  button:hover{
+  .button:hover{
     background-color: #1b7dde;
     border-radius: 15px;
     transition: 0.2s;
@@ -35,6 +35,7 @@ body{
   }
   header{
       background: #1b7dde;
+      padding: 65px;
   }
   header a{
       background: #ffe999;

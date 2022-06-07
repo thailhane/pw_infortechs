@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +7,21 @@
   <link rel="stylesheet" href="../css/login.css">
   <title>Login</title>
 </head>
-
 <body>
+<header>
+  <h1>img</h1>
+    <a href="./pagina/index.php">voltar</a>
+  </header>
 <div class="container">
     <form method="POST" action="">
       <h1>Faça Login:</h1>
-      <input class="form-control" type="text" name="nome" placeholder="Seu nome"><br>
-      <input class="form-control" type="email" name="email" placeholder="Seu email"><br>
-      <input class="form-control" type="password" name="senha" placeholder="Sua senha"><br>
-      <input type="submit" value="LOGAR">
-      <li><a href="../index.php">Home</a></li>
-      <li><a href="./cadastro.php">Cadasrar-se</a></li>
+      <br><br>
+      <input class="form-control" type="email" name="email" placeholder="Seu email">
+      <br><br>
+      <input class="form-control" type="password" name="senha" placeholder="Sua senha">
+      <br><br>
+      <input class="button" type="submit" value="LOGAR">
+      <a href="./cadastro.php">Cadasrar-se</a>
     </form>
   </div>
 </body>

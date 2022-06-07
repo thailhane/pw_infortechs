@@ -11,12 +11,11 @@
 
 <body>
   <header>
-    <li><a href="./index.php">Home</a></li>
-    <li><a href="./pagina/login.php">Login</a></li>
+    <h1>img</h1>
+    <a href="./pagina/login.php">Login</a>
   </header>
-
   <div class="container">
-    <form method="post" action="./page/cad.php">
+    <form method="post" action="./pagina/cad.php">
       <h1>Cadastre-se: </h1>
       <input name="nome" type="text" placeholder="Nome">
       <br><br>
@@ -24,24 +23,25 @@
       <br><br>
       <input name="email" type="Email" placeholder="Email">
       <br><br>
-      <select name="sexo">
       Sexo: <?php
-      $sexo = array("Feminino","Masculino","Outro");
+      $sexo = array('Feminino','Masculino','Outro');
       ?>
-      
-          <option>
-              <?php
+       <select name="sexo">
+       <?php
               foreach($sexo as $valor){
-                  ?>
-            <?php
+                  ?>   
+          <option value="<?php echo $valor; ?>">
+          <?php echo $valor;?>
+
+          </option>
+          <?php
               }
               ?>
-          </option value="<?php echo $valor; ?>">
       </select>
       <br><br>
       <input name="senha" type="password" placeholder="senha">
       <br><br>
-        <input type="submit" value="CADASTRAR">
+        <input class="button" type="submit" value="CADASTRAR">
     </form>
   </div>
 </body>

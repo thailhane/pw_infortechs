@@ -25,6 +25,7 @@
             <li><a href="paginas/about.html">Sobre</a></li>
             <li><a href="#"></a></li>
             <li><a href="./pagina/login.php">LOGAR</a></li>
+            <l1><a href="./pagina/cadastro.php">Cadasrar-se</a></l1>
             <li><a href="#"></a></li>
           </ul>
         </div>
