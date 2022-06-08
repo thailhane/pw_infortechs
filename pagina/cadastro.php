@@ -12,16 +12,16 @@
 <body>
   <header>
     <h1>img</h1>
-    <a href="./pagina/login.php">Login</a>
+    <a href="../pagina/login.php">Login</a>
   </header>
   <div class="container">
-    <form method="post" action="./pagina/cad.php">
+    <form method="post" action="./pagina/dbconexao.php">
       <h1>Cadastre-se: </h1>
-      <input name="nome" type="text" placeholder="Nome">
+      <input name="nome" type="text" placeholder="Nome"  required="required">
       <br><br>
-      <input name="snome" type="text" placeholder="Sobrenome">
+      <input name="sobrenome" type="text" placeholder="Sobrenome" required="required">
       <br><br>
-      <input name="email" type="Email" placeholder="Email">
+      <input name="email" type="Email" placeholder="Email"  required="required">
       <br><br>
       Sexo: <?php
       $sexo = array('Feminino','Masculino','Outro');
@@ -39,7 +39,7 @@
               ?>
       </select>
       <br><br>
-      <input name="senha" type="password" placeholder="senha">
+      <input name="senha" type="password" placeholder="senha"  required="required">
       <br><br>
         <input class="button" type="submit" value="CADASTRAR">
     </form>
