@@ -11,12 +11,12 @@
 
 <body>
   <header>
-    <h1>img</h1>
+    <img src="../img/hp.png" width="20%" href="">
     <a href="../pagina/login.php">Login</a>
   </header>
   <div class="container">
     <form method="post" action="../controle/dbcadastro.php">
-      <h1>Cadastre-se: </h1>
+      <h2>Cadastre-se: </h2>
       <input name="nome" type="text" placeholder="Nome" required="required">
       <br><br>
       <br><br>
@@ -42,5 +42,18 @@
       <br><br>
       <input class="button" type="submit" value="CADASTRAR">
     </form>
+  </div>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <div class="contner">
+        <a href="https://www.instagram.com/hpeletromoveis_caririacu/" ><img src="../img/ins.jpg" width="4%"></a>
+        <a href="#" ><img src="../img/fc.png" width="4%"></a>
+        <a href="#" ><img src="../img/tt.png" width="4%"></a>
   </div>
 </body>

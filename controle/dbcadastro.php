@@ -9,7 +9,7 @@ $senha = $_POST['senha'];
 
 try {
   // $pdo = new PDO('mysql:host=localhost;dbname=dbcad', $username, $password);
- // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
   $prepare = $pdo->prepare($sql);
   $prepare->bindParam(1, $nome);

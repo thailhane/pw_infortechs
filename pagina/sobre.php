@@ -3,7 +3,7 @@
 
 <head>
   <title>.</title>
-  <link rel="stylesheet" type="text/css" href="./css/sobre.css">
+  <link rel="stylesheet" type="text/css" href="../css/sobre.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 </nav>
   </header>
   <br><br><br><br><br><br><br><br><br>
-
+<p>a</p>
 </body>
 
 </html>

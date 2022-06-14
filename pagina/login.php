@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-  <h1>img</h1>
+<img src="../img/hp.png" width="20%" href="">
     <a href="../index.php">voltar</a>
   </header>
 <div class="container">
@@ -24,5 +24,9 @@
       <a href="./cadastro.php">Cadasrar-se</a>
     </form>
   </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <a href="https://www.instagram.com/hpeletromoveis_caririacu/" ><img src="../img/ins.jpg" width="4%"></a>
+        <a href="#" ><img src="../img/fc.png" width="4%"></a>
+        <a href="#" ><img src="../img/tt.png" width="4%"></a>
 </body>
 </html>
