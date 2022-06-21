@@ -1,5 +1,6 @@
 body{
     background-attachment: fixed;
+   
 }
 *{
     margin: 0;
@@ -20,7 +21,7 @@ header{
     z-index: 1000;
 }
 .menu{
-    margin-left: 230%;
+    margin-left: 115%;
     display: flex;
     list-style:none;
     float:left;

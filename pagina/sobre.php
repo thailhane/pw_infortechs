@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>.</title>
+  <title>Sobre</title>
   <link rel="stylesheet" type="text/css" href="../css/sobre.css">
 </head>
 
@@ -24,7 +24,7 @@
 </ul>
 </nav>
   </header>
-  <br><br><br><br><br><br><br><br><br>
+  <br>
 <p>a</p>
 </body>
 

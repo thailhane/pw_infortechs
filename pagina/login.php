@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +13,14 @@
     <a href="../index.php">voltar</a>
   </header>
 <div class="container">
-    <form method="POST" action="">
-      <h1>Faça Login:</h1>
+    <form method="POST" action="../controle/listUsuario.php">
+      <h1>Fazer Login</h1>
       <br><br>
-      <input class="form-control" type="email" name="email" placeholder="Seu email"  required="required">
+      <input class="form-control" id="email" type="email" name="email" placeholder="Seu email"  required="required">
       <br><br>
-      <input class="form-control" type="password" name="senha" placeholder="Sua senha"  required="required">
+      <input class="form-control" id="senha" type="password" name="senha" placeholder="Sua senha"  required="required">
       <br><br>
-      <input class="button" type="submit" value="LOGAR">
+      <button class="button" type="submit" name="logar" id="logar">Logar</button>
       <a href="./cadastro.php">Cadasrar-se</a>
     </form>
   </div>

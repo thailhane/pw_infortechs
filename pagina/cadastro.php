@@ -15,7 +15,7 @@
     <a href="../pagina/login.php">Login</a>
   </header>
   <div class="container">
-    <form method="post" action="../controle/dbcadastro.php">
+    <form method="post" action="../controle/listUsuario.php">
       <h2>Cadastre-se: </h2>
       <input name="nome" type="text" placeholder="Nome" required="required">
       <br><br>
@@ -40,17 +40,10 @@
       <br><br>
       <input name="senha" type="password" placeholder="senha" required="required">
       <br><br>
-      <input class="button" type="submit" value="CADASTRAR">
+      <button class="button" type="submit" href="login.php">Cadastrar</button>
     </form>
   </div>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
+  
   <div class="contner">
         <a href="https://www.instagram.com/hpeletromoveis_caririacu/" ><img src="../img/ins.jpg" width="4%"></a>
         <a href="#" ><img src="../img/fc.png" width="4%"></a>
